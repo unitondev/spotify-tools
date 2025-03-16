@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpotifyTools", "SpotifyTools\SpotifyTools.csproj", "{30B724B3-CB34-4BCE-ADA7-C587AB408D11}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpotifyConsoleWorker", "SpotifyConsoleWorker\SpotifyConsoleWorker.csproj", "{97F88D61-71EB-4D99-9275-9A02AE568109}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,9 @@ Global
 		{30B724B3-CB34-4BCE-ADA7-C587AB408D11}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{30B724B3-CB34-4BCE-ADA7-C587AB408D11}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{30B724B3-CB34-4BCE-ADA7-C587AB408D11}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97F88D61-71EB-4D99-9275-9A02AE568109}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97F88D61-71EB-4D99-9275-9A02AE568109}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97F88D61-71EB-4D99-9275-9A02AE568109}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97F88D61-71EB-4D99-9275-9A02AE568109}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

@@ -92,6 +92,9 @@ public class AuthenticationController : ControllerBase
         _improvisedDatabase.Set(KnownDatabaseFields.AccessToken, parsedResult.AccessToken);
         _improvisedDatabase.Set(KnownDatabaseFields.RefreshToken, parsedResult.RefreshToken);
         
-        return Ok("Success");
+        return Ok(new
+        {
+            Jwt = parsedResult.AccessToken, parsedResult.RefreshToken,
+        });
     }
 }
